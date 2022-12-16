@@ -43,3 +43,7 @@ jobs:
       uses: MishaKav/pytest-coverage-comment@main 
       with:
         pytest-xml-coverage-path: ./coverage.xml
+        title: My Coverage Report Python ${{matrix.python-version}}
+        badge-title: My Badge Coverage Python  ${{matrix.python-version}}
+        unique-id-for-comment: python- ${{matrix.python-version}}
+
