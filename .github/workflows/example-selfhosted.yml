@@ -9,4 +9,4 @@ jobs:
       - name: 'I am alive'
         run: echo 'Selfhosted script started successfully'
       - name: 'Just grep'
-        run: grep 'hqr' /actionsDemo/file.txt
+        run: FIND 'hqr' /actionsDemo/file.txt
