@@ -9,4 +9,5 @@ jobs:
       - name: 'I am alive'
         run: echo 'Selfhosted script started successfully'
       - name: 'Just grep'
-        run: FIND 'hqr' actionsDemo/file.txt 
+        run: grep "hqr"  C:\Users\jakub\Desktop\Robocze\GA\KursGithubActions\.github\workflows\actionsDemo\file.txt
+ 
