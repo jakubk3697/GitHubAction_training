@@ -6,5 +6,7 @@ jobs:
   test_selfhosted:
     runs-on: self-hosted
     steps:
-      - name: 'Just echo'
-        run: echo 'Hello'
+      - name: 'I am alive'
+        run: echo 'Selfhosted script started successfully'
+      - name: 'Just grep'
+        run: grep 'hqr' /actionsDemo/file.txt
