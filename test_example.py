@@ -25,6 +25,8 @@ def div(x, y):
 def power(x, y):
     return x**y
 
+def nstr(x):
+    return f'{x}'
 
 ###########
 #  Testy  #
